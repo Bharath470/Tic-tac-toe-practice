@@ -1,0 +1,68 @@
+
+        body {
+              font-family: sans-serif;
+              margin: 0;
+              padding: 0;
+            }
+
+            html,
+            body {
+              height: 100%;
+            }
+
+            #next {
+              text-align: center;
+              margin-top: 20px;
+            }
+
+            table {
+              align-self: center;
+              border-collapse: collapse;
+              margin: 0 auto;
+            }
+            table {
+              position: relative;
+              top: 40%;
+              transform: translateY(-80%);
+            }
+
+            td {
+              width: 33%;
+              text-align: center;
+              vertical-align: middle;
+              border: 1px solid #ccc;
+            }
+
+            img {
+              cursor: pointer;
+            }
+
+            h1 {
+              text-align: center;
+              margin-top: 20px;
+            }
+
+            button {
+              background-color: #000;
+              color: #fff;
+              padding: 10px 20px;
+              border: none;
+              cursor: pointer;
+            }
+
+            button:hover {
+              background-color: #ccc;
+            }
+
+            .winner h1 {
+              color: #fff;
+              background-color: #000;
+              padding: 20px;
+              border-radius: 10px;
+            }
+
+            .winner button {
+              background-color: #fff;
+              color: #000;
+            }
+    
